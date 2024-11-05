@@ -1,0 +1,50 @@
+/*-----------------
+    RESET
+-------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------
+    HEADER
+-------------------*/
+header {
+    min-height: 200px;
+    background-color: #9A9AF7;
+}
+
+/*-----------------
+    MAIN
+-------------------*/
+main {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    max-width: 1100px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.col-left {
+    width: 25%;
+    min-height: 400px;
+    background-color: #3535EC;
+}
+
+.col-right {
+    /* width: calc(75% - 10px); */
+    width: 75%;
+    min-height: 600px;
+    background-color: #F71567;
+}
+
+/*-----------------
+    FOOTER
+-------------------*/
+
+footer {
+    height: 100px;
+    background-color: #9A9AF7;
+}
